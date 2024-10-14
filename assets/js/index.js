@@ -99,7 +99,7 @@ else{
     <div class="cardss" style="width: 18rem;" >
   <img src="./assets/image/smily.gif" class="card-img-top" alt="..." style="height: 250px;">
   <div class="card-body">
-    <h5 class="card-title">SORRY YOUR ANSWER IS WRONG</h5>
+    <h5 class="card-title">SORRY!! INVALID ANSWER</h5>
   </div>
 </div>
 </div>

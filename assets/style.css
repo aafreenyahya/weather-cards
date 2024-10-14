@@ -3,7 +3,6 @@
    margin-left: 500px;
    margin-top: 150px;
    text-align: center;
-   /* box-shadow: 8px 8px 5px 5px rgb(134, 134, 180); */
    transition: 0.3s;
    border-radius: 5px 5px 5px 5px;
 }
@@ -13,30 +12,50 @@
     background-image: url(./image/img\ 1\ winter\ page.webp);
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Set height to full viewport */
-    width: 100%; /* Set width to full viewport */
-    position: absolute; /* Ensure any absolute positioned elements are relative to this */
+    height: 100vh; 
+    width: 100%; 
+    position: absolute; 
 }
 
 
+
+@media (max-width: 768px) {
+    .card {
+        margin: 20px; 
+        width: 90%; 
+    }
+
+    .card1 {
+        height: 80vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        margin: 10px; 
+    }
+
+    .card1 {
+        height: 70vh; 
+    }
+}
 
 .card2{
     background-image: url(./image/summer\ img2.gif);
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Set height to full viewport */
-    width: 100%; /* Set width to full viewport */
-    position: absolute; /* Ensure any absolute positioned elements are relative to this */
+    height: 100vh; 
+    width: 100%; 
+    position: absolute; 
 }
-
 
 .card3{
     background-image: url(./image/autonm\ back.gif);
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Set height to full viewport */
-    width: 100%; /* Set width to full viewport */
-    position: absolute; /* Ensure any absolute positioned elements are relative to this */
+    height: 100vh; 
+    width: 100%; 
+    position: absolute; 
 }
 
 
@@ -44,9 +63,9 @@
     background-image: url(./image/spring\ back.gif);
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Set height to full viewport */
-    width: 100%; /* Set width to full viewport */
-    position: absolute; /* Ensure any absolute positioned elements are relative to this */
+    height: 100vh; 
+    width: 100%; 
+    position: absolute; 
 }
 
 
@@ -54,9 +73,9 @@
     background-image: url(./image/cloudy\ back.gif);
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Set height to full viewport */
-    width: 100%; /* Set width to full viewport */
-    position: absolute; /* Ensure any absolute positioned elements are relative to this */
+    height: 100vh; 
+    width: 100%; 
+    position: absolute; 
 }
 
 
@@ -64,9 +83,9 @@
     background-image: url(./image/rainy\ abck.gif);
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Set height to full viewport */
-    width: 100%; /* Set width to full viewport */
-    position: absolute; /* Ensure any absolute positioned elements are relative to this */
+    height: 100vh; 
+    width: 100%; 
+    position: absolute; 
 }
 
 
@@ -74,11 +93,22 @@
     margin-left: 500px;
     margin-top: 150px;
     text-align: center;
-    /* box-shadow: 8px 8px 5px 5px rgb(134, 134, 180); */
     transition: 0.3s;
     border-radius: 5px 5px 5px 5px;
 }
 
+@media (max-width: 768px) {
+    .cardss {
+        margin: 10% auto; 
+        width: 90%; 
+    }
+}
 
+@media (max-width: 480px) {
+    .cardss {
+        margin: 5% auto; 
+        width: 95%;
+    }
+}
 
 
